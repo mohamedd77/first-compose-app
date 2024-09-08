@@ -59,6 +59,8 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.navigation.runtime.ktx)
+    implementation(libs.androidx.navigation.compose)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -72,4 +74,7 @@ dependencies {
     // ViewModel and LiveData for MVVM architecture
     implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha07")
     implementation ("androidx.lifecycle:lifecycle-livedata:2.3.1")
+    implementation ("androidx.navigation:navigation-compose:2.5.0")
+    implementation ("io.coil-kt:coil-compose:2.3.0")
+
 }
