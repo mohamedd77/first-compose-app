@@ -2,4 +2,10 @@
 <resources>
 
     <style name="Theme.MyApplication" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.SplashScreen.movie" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#ABB73A</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.SplashScreen</item>
+          
+    </style>
 </resources>
